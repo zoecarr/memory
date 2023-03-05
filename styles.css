@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 
 body{
+    @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap'); 
 font-family: 'Dawning of a New Day', cursive;
 font-size: 24px;
 line-height: 32px;
@@ -21,4 +22,16 @@ p{
     color: #FBF6EA;
     mix-blend-mode: difference;
     font-family: 'Dawning of A New Day', cursive;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* TEXT ENTRIES*/
+
+#spoontext{
+    position: absolute;
+width: 716px;
+height: 544px;
+left: 672px;
+top: 200px;
 }
