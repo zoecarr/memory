@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap'); 
+
+max-width: 1400px;
 font-family: 'Dawning of a New Day', cursive;
-font-size: 24px;
+font-size: 30px;
 line-height: 32px;
 
 background-color: #FBF6EA;
@@ -22,16 +23,154 @@ p{
     color: #FBF6EA;
     mix-blend-mode: difference;
     font-family: 'Dawning of A New Day', cursive;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 32px;
 }
 
 /* TEXT ENTRIES*/
 
-#spoontext{
+#spoontext1{
     position: absolute;
-width: 716px;
-height: 544px;
-left: 672px;
-top: 200px;
+    width: 716px;
+    height: 544px;
+    left: 672px;
+    top: 200px;
 }
+
+#spoontext2{
+    position: absolute;
+    width: 607px;
+    height: 384px;
+    left: 110px;
+    top: 872px;
+}
+
+#sunflowertext{
+    position: absolute;
+width: 565px;
+height: 288px;
+left: 584px;
+top: 130px;
+}
+
+#sanddollartext{
+    position: absolute;
+width: 638px;
+height: 740px;
+left: 563px;
+top: 173px;
+
+}
+
+/*IMAGES POSITIONING*/
+
+
+/* sunflower 1 */
+    #sf1 {
+        position:absolute;
+        width: 640px;
+        height: 882px;
+        left: 55px;
+        top: -141px;
+    }
+
+        /* sunflower 2 */
+
+    #sf2{
+        position:absolute;
+        width: 368px;
+        height: 507px;
+        left: 80%;
+        top: 310px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+
+        /* sunflower 3 */
+
+    #sf3{
+        position:absolute;
+        width: 310px;
+        height: 425px;
+        left: 65%;
+        top: 629px;
+
+        mix-blend-mode: multiply;
+        transform: rotate(90deg);
+    }
+
+            /* spoon 1 */
+
+    #sp1{
+        position: absolute;
+        width: 588px;
+        height: 547px;
+        left: 40px;
+        top: 0px;
+    }
+        /* spoon 4 */
+    #sp4{
+        position: absolute;
+        width: 295px;
+        height: 274px;
+        left: 30%;
+        top: 450px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+        /* spoon 2 */
+    #sp2{
+        position: absolute;
+        width: 407px;
+        height: 379px;
+        left: 70%;
+        top: 872px;
+    }
+
+        /* spoon 3 */
+
+    #sp3{
+        position: absolute;
+        width: 352px;
+        height: 419px;
+        left: 20%;
+        top: 1100px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+/*SANDDOLLARS*/
+    #sd1 {
+        position: absolute;
+        width: 645px;
+        height: 643px;
+        left: 10%;
+        top: 1200px;
+        transform: rotate(-180deg);
+    }
+        /* sanddollar 5 */
+    #sd4{
+        position: absolute;
+        width: 356px;
+        height: 355px;
+        left: 1084.5px;
+        top: 1999.5px;
+        transform: rotate(-90deg);
+    }
+
+        /* sanddollar 3 */
+    #sd3{
+        position: absolute;
+        width: 778px;
+        height: 776px;
+        left: 50%;
+        top: 641px;
+    }
+
+        /* sanddollar 2 */
+    #sd2{
+        position: absolute;
+        width: 547px;
+        height: 545px;
+        left: 56px;
+        top: 0px;
+    }
+/*END SANDDOLLARS*/
