@@ -1,0 +1,23 @@
+
+body{
+font-family: 'Hershey-Noailles-cursive';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+background-color: #FBF6EA;;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+img:hover{
+    mix-blend-mode: exclusion;
+}
+
+p{
+    color: #FBF6EA;
+mix-blend-mode: difference;
+}
