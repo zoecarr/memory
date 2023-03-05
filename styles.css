@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 
 body{
-font-family: 'Hershey-Noailles-cursive';
-font-style: normal;
-font-weight: 400;
+font-family: 'Dawning of a New Day', cursive;
 font-size: 24px;
 line-height: 32px;
 
-background-color: #FBF6EA;;
+background-color: #FBF6EA;
+
 }
 
 img{
@@ -19,5 +19,6 @@ img:hover{
 
 p{
     color: #FBF6EA;
-mix-blend-mode: difference;
+    mix-blend-mode: difference;
+    font-family: 'Dawning of A New Day', cursive;
 }
