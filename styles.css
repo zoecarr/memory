@@ -7,7 +7,7 @@ font-family: 'Dawning of a New Day', cursive;
 font-size: 30px;
 line-height: 32px;
 
-background-color: #FBF6EA;
+background-color: #FBF6D8;
 
 }
 
@@ -27,6 +27,23 @@ p{
     font-size: 30px;
     line-height: 32px;
 }
+
+footer {
+    position: absolute;
+    align-items: center;
+    margin: auto;
+    left: 20%;
+    top: 2001px;
+    padding: 5px;
+}
+
+#popup {
+    z-index: 100;
+    padding: 30px;
+    margin: auto;
+    background-color: #FBF289;
+}
+
 
 /* TEXT ENTRIES*/
 
@@ -153,7 +170,7 @@ top: 173px;
         position: absolute;
         width: 356px;
         height: 355px;
-        left: 1084.5px;
+        left: 900px;
         top: 1999.5px;
         transform: rotate(-90deg);
     }
