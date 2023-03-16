@@ -15,6 +15,11 @@ img{
     mix-blend-mode: multiply;
 }
 
+a {
+    border: none;
+    text-decoration: none;
+}
+
 img:hover{
     mix-blend-mode: exclusion;
     transform:scale3d(150deg);
