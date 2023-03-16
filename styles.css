@@ -41,6 +41,7 @@ footer{
     bottom: 5;
     padding: 6px;
     transform: none;
+    mix-blend-mode: multiply;
 }
 
 footer:hover{
