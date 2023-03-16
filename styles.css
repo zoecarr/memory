@@ -12,7 +12,8 @@ background-color: #FBF6D8;
 }
 
 img{
-    mix-blend-mode: multiply;
+     mix-blend-mode: multiply;
+     transition: 2s ease-out 100ms
 }
 
 a {
@@ -22,7 +23,8 @@ a {
 
 img:hover{
     mix-blend-mode: exclusion;
-    transform:scale3d(150deg);
+    transform:rotate(90deg);
+    box-shadow: #FBF289;
 }
 
 p{
@@ -33,20 +35,17 @@ p{
     line-height: 32px;
 }
 
-footer {
-    position: absolute;
-    align-items: center;
-    margin: auto;
-    left: 20%;
-    top: 2001px;
-    padding: 5px;
+footer{
+    position: fixed;
+    left: 5;
+    bottom: 5;
+    padding: 6px;
+    transform: none;
 }
 
-#popup {
-    z-index: 100;
-    padding: 30px;
-    margin: auto;
-    background-color: #FBF289;
+footer:hover{
+    mix-blend-mode: exclusion;
+    transform:none;
 }
 
 
